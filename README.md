@@ -1,4 +1,12 @@
-```portfolio-website/
+# portfolio-website
+
+A simple,responsive and modern *Portfolio Website* built with *HTML, TailwindCSS, JavaScript, and **Flask (Python)* for showcasing personal Projects, Skills,Certifications,Educational-background, Resume, and contact information. This portfolio is perfect for developers, data analysts, and engineers who want to display their work professionally.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📁 Project Folder Structure
+
+portfolio-website/
 │
 ├── static/                         # Static assets like CSS, JS, and images
 │   ├── static.css                  # Main CSS file
@@ -13,7 +21,7 @@
 │   ├── base.html                   # Base template (layout)
 │   ├── index.html                  # Home page
 │   ├── blog.html                   # Blog page
-│   ├── certifications.html          # Certifications page
+│   ├── certification.html          # Certifications page
 │   ├── contact.html                # Contact form page
 │   ├── education.html              # Education details
 │   ├── project.html                # Projects showcase
@@ -22,49 +30,62 @@
 ├── app.py                          # Main Flask application
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # Project documentation
-└── .gitignore                      # Files/folders to ignore in Git  ```
+└── .gitignore                      # Files/folders to ignore in Git
 
-💡 Features of project
-🔥 Animated typing effect for job roles
-💼 Projects section with hover animations
-🎨 Responsive design using TailwindCSS
-📄 Resume download button
-🧭 Smooth navigation bar with anchor links
-⚡ Flask-powered backend for future enhancements
-🛠️ Technologies Used
-💻 Frontend
-HTML5
-TailwindCSS
-JavaScript
-🔙 Backend
-Python
-Flask
-⚙️ Tools Used
-Git & GitHub
-VS Code
-📦 Python Dependencies
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## 💡 Features of project
+
+- 🔥 Animated typing effect for job roles
+- 💼 Projects section with hover animations
+- 🎨 Responsive design using TailwindCSS
+- 📄 Resume download button
+- 🧭 Smooth navigation bar with anchor links
+- ⚡ Flask-powered backend for future enhancements
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 🛠 Technologies Used
+
+### 💻 Frontend
+- HTML5
+- TailwindCSS
+- JavaScript
+
+### 🔙 Backend
+- Python
+- Flask
+
+### ⚙ Tools Used
+- Git & GitHub
+- VS Code
+
+## 📦 Python Dependencies
 Make sure you have Python installed (preferably 3.10+). These libraries are required:
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🚀 How to Run Locally
-
-Clone the repository
-
-git clone https://github.com/Krishna471/portfolio-website.git
-cd portfolio-website
-Create a virtual environment
-
-python -m venv venv
-Activate the virual environment
-
-venv\Scripts\activate # On Windows
-source venv/bin/activate # On Mac/Linux
-Install flask
-
-pip install flask
-Run the Flask app
-
-python app.py
-Visit your browser
-
-http://127.0.0.1:5000/
-
+1. Clone the repository
+   -  git clone https://github.com/Aditya7565/portfolio_flask.git
+   -  cd portfolio-flask
+     
+3. Create a virtual environment
+   -  python -m venv venv 
+     
+4. Activate the virual environment
+   -  venv\Scripts\activate        # On Windows
+   -  source venv/bin/activate     # On Mac/Linux
+     
+5. Install flask
+   -  pip install flask 
+     
+6. Run the Flask app
+   -  python app.py 
+     
+7. Visit your browser
+   - http://127.0.0.1:5000/
+     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
